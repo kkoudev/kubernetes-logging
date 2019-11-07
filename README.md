@@ -3,6 +3,13 @@
 Welcome to the New Relic Fluent Bit Output Plugin for Kubernetes! There are only a few quick steps to getting this 
 working in your cluster.
 
+## Installation
+
+```bash
+helm repo add newrelic-logging-stable https://kkoudev.github.io/newrelic-logging/stable
+helm install newrelic-logging-stable/newrelic-logging
+```
+
 ## Usage
 
 ### Deploying as Helm chart (Recommended)
